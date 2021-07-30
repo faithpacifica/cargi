@@ -1,0 +1,324 @@
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .top-header .col-auto:last-child {
+    letter-spacing: -1.5px;
+  }
+
+  .logo__image {
+    width: 180px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .intro .main-header .hamburger-button {
+    display: block;
+  }
+
+  .intro .main-header {
+    margin-bottom: 82px;
+  }
+
+  .intro {
+    padding-bottom: 200px;
+  }
+
+  .jobs {
+    padding-top: 45px;
+  }
+
+  .jobs::after {
+    width: 400px;
+  }
+
+  .invisible-column {
+    display: none;
+  }
+
+  .jobs .row > div {
+    width: 49.333333%;
+  }
+
+  .images-block {
+    width: 100%;
+  }
+
+  .footer .navi {
+    display: none;
+  }
+
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+  .top-header .col-auto:last-child {
+    letter-spacing: -1.5px;
+  }
+
+  .logo__image {
+    width: 180px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .intro .main-header .hamburger-button {
+    display: block;
+  }
+
+  .intro .main-header {
+    margin-bottom: 82px;
+  }
+
+  .intro {
+    padding-bottom: 200px;
+  }
+
+  .jobs {
+    padding-top: 45px;
+  }
+
+  .jobs::after {
+    width: 400px;
+  }
+
+  .invisible-column {
+    display: none;
+  }
+
+  .jobs .row > div {
+    width: 49.333333%;
+  }
+
+  .images-block {
+    width: 100%;
+  }
+
+  .footer .navi {
+    display: none;
+  }
+
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .mobile-hidden {
+    display: none;
+  }
+
+  .intro__title {
+    font-size: 70px;
+  }
+
+  .jobs__title {
+    font-size: 35px;
+  }
+
+  .jobs::after {
+    width: 250px;
+    height: 200px;
+    right: 110px;
+  }
+
+  .intro__title {
+    font-size: 52px;
+    line-height: 35px;
+    margin-bottom: 70px;
+  }
+
+  .intro__buttons__link {
+    padding: 12px 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .jobs::after {
+    width: 250px;
+    right: 20px;
+    top: 40px;
+  }
+
+  .jobs__title::after {
+    top: 75px;
+  }
+
+  .jobs__title::before {
+    left: 370px;
+  }
+
+  .ourWorks__title::before {
+    left: 300px;
+  }
+
+  .firstJobs .firstJobs__info__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .footer__text {
+    margin-bottom: 10px;
+  }
+
+  .footer__info {
+    margin-bottom: 30px;
+  }
+
+  .map__image {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .contact__info {
+    margin-right: 30px;
+  }
+
+  .jobs__title::before {
+    display: none;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .intro__buttons__link {
+    padding: 9px 15px;
+    font-size: 16px;
+  }
+
+  .intro__title {
+    font-size: 50px;
+  }
+
+  .intro__content {
+    max-width: 370px;
+  }
+
+  .intro__buttons__link {
+    padding: 12px 36px;
+  }
+
+  .intro__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .jobs::after {
+    width: 250px;
+    right: 20px;
+    top: 40px;
+  }
+
+  .footer__info {
+    margin-bottom: 30px;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+/* Iphone 5 */
+@media (max-width: 320px) {
+  .jobs__title {
+    font-size: 35px;
+  }
+
+  .jobs::after {
+    display: none;
+  }
+
+  .jobs__title::before {
+    left: 280px;
+  }
+
+  .jobs__title::before {
+    width: 25px;
+    height: 10px;
+    left: 280px;
+    top: 30px;
+  }
+
+  .firstJobs .firstJobs__info__text {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .contact__link {
+    font-size: 11px;
+  }
+
+  .contact__info {
+    font-size: 11px;
+  }
+
+  .grid-items:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  .intro__title {
+    margin-bottom: 20px;
+  }
+
+  .intro__text {
+    line-height: 20px;
+  }
+
+  .intro__buttons__link {
+    font-size: 14px;
+  }
+
+  .jobs__title {
+    margin-bottom: 55px;
+  }
+
+  .firstJobs .firstJobs__info {
+    left: 25px;
+    width: 285px;
+  }
+
+  .firstJobs .firstJobs__info__title {
+    font-size: 20px;
+  }
+
+  .jobs .row > div {
+    width: 100%;
+  }
+
+  .top-header__info:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .intro {
+    padding-bottom: 50px;
+  }
+
+  .ourWorks {
+    padding-top: 30px;
+  }
+
+  .grid-items:not(:first-child) {
+    display: none;
+  }
+}
